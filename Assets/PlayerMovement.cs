@@ -92,10 +92,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //SCORE UI
-
-        {
-            scoreText.text = Player.position.z.ToString("0");
-        }
     }
 
     private void Start()
